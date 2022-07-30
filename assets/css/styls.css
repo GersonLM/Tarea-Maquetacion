@@ -1,0 +1,77 @@
+.navbar img {
+    width: 180px;
+}
+.icon-container .fa {
+    color: #555555;
+    font-size: 20px;
+}
+
+.icon-container{
+    width: 64px;
+    height: 50px;
+}
+
+.icon-container:hover{
+    width: 64px;
+    height: 50px;
+    background: rgba(200, 200, 200, 0.2);
+}
+    
+.certificado-regalo {
+    width: 233px;
+    height: 36px;
+    background-color: #d20f2d;
+    color: #fff;
+}
+
+.certificado-regalo:hover {
+    cursor: pointer;
+    background-color: rgb(147, 10, 31);
+}
+.inicio-session {
+    font-weight: 600;
+    width: 180px;
+    height: 50px;
+}
+
+.inicio-session i {
+    margin-right: 8px;
+}
+
+.inicio-session:hover {
+    cursor: pointer;
+    background: rgba(200, 200, 200, 0.2);
+}
+
+main {
+    background-image: url("https://www.pizzahut.com.sv/static/media/menu/webp/background-mx.webp");
+}
+
+.carousel-item img {
+    height: 482px;
+}
+.img-container {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    transition: all .4s;
+    box-shadow: 2px 3px 6px #4e4e4e;
+}
+
+.img-container img {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat
+}
+
+.img-container:hover {
+    -webkit-box-shadow: -1px -1px 17px 9px #E27F8F; 
+box-shadow: -1px -1px 17px 9px #E27F8F;
+}
+
+footer {
+    height: 60px;
+    color: #fff;
+}
